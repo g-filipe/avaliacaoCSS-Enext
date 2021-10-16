@@ -1,0 +1,68 @@
+body,html {
+  background: #ddd;
+  margin: 0;
+  padding: 0;
+}
+
+.product-images {
+  display:flex;
+}
+
+.product-images img {
+  justify-content: center;
+}
+
+.product-info-wrapper{
+  display:flex;
+  align-items: center;
+  justify-content: space-around;
+ 
+}
+
+.product-buy-section{
+  display:flex;
+  
+}
+
+/*Detalhes Técnicos*/
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+td,th{
+  padding-left: 2%;
+}
+.product-specifications-wrapper{
+  display:flex;
+  height: 630px;
+  background-color: #fff;
+  flex-direction: column;
+  align-items: space-between;
+}
+
+.techical-details{
+  width: 70%;
+  margin-left: 2%;
+}
+.product-specifications-wrapper h2{
+  margin-left: 2%;
+}
+.techical-details th{
+  background-color: #f3f3f3;
+  border: 1px solid #000;
+  width: 10%;
+  height:33px;
+  color:#000;
+  text-align:start;
+  line-height: 20px;
+  font-size: 14px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: lighter;
+}
+
+.techical-details td{
+  width:20%;
+  background-color: #fff;
+  border: 1px solid #000;
+}
