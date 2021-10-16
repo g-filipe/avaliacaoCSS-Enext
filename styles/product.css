@@ -16,7 +16,7 @@ body,html {
   display:flex;
   align-items: center;
   justify-content: space-around;
- 
+   
 }
 
 .product-buy-section{
@@ -24,12 +24,16 @@ body,html {
   
 }
 
+.product-freight
+
 /*Detalhes Técnicos*/
 
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+
 td,th{
   padding-left: 2%;
 }
@@ -44,6 +48,7 @@ td,th{
 .techical-details{
   width: 70%;
   margin-left: 2%;
+
 }
 .product-specifications-wrapper h2{
   margin-left: 2%;
