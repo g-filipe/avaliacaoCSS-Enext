@@ -6,7 +6,7 @@
   }
 
   .product-images img{
-    height: 200px;
+    width:200px;
     padding-top: 3%;
     margin-top: 3%;
   }
@@ -16,6 +16,7 @@
     align-items: center;
     justify-content: space-around;
     flex-direction: column;
+    height: auto;
     
   }
 
@@ -76,5 +77,10 @@
     flex-wrap:wrap;
     align-items: space-between;
     margin-bottom: 2%;
+  }
+  
+  table {
+    border-collapse: collapse;
+    border-spacing: 0;
   }
 }

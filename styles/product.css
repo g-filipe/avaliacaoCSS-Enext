@@ -10,12 +10,14 @@ body,html {
 
 .product-images img {
   justify-content: center;
+  width: 350px;
 }
 
 .product-info-wrapper{
   display:flex;
   align-items: center;
   justify-content: space-around;
+  height: 75vh;
    
 }
 
@@ -24,7 +26,9 @@ body,html {
   
 }
 
-.product-freight
+.product-freight{
+  margin-bottom: 4%;
+}
 
 /*Detalhes Técnicos*/
 
